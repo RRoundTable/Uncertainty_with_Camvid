@@ -40,7 +40,31 @@ python visualize.py
 
 ## Results
 
+|              | <center>baseline57</center> | <center>Combined57</center> |
+| ------------ | ------------------------- | ------------------------- |
+| val_error |         0.379225346534653 | 0.325735643564356 |
 
+- Input
+
+  ![](./combined/0-input.png)
+
+- Target
+
+  ![](./combined/0-target.png)
+
+- Prediction
+
+  ![](./combined/0-pred.png)
+
+- Aleatoric uncertainty
+
+  ![](./combined/0-aleatoric.png)
+
+- Epistemic uncertainty
+
+  ![](./combined/0-epistemic.png)
+  
+  
 
 
 
@@ -50,8 +74,9 @@ https://rroundtable.github.io/post/2019-06-29-what-uncertainties-do-we-need-in-b
 
 
 
-Reference
+## Reference
 
-- https://github.com/bfortuner/pytorch_tiramisu
+- baseline: https://github.com/bfortuner/pytorch_tiramisu
 
   
+
